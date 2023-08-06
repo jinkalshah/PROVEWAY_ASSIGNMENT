@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url(../fonts/Metropolis-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.otf) format("truetype");
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+body {
+  font-family: "Metropolis";
+}
+.radioDiv {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.radioOptionDiv {
+  display: inline-block;
+  width: 90%;
+  font-size: 14.46px;
+}
+.description {
+  display: none;
+  margin-top: 5px;
+}
+.showDescription .description {
+  display: block !important;
+}
+.showDescription input {
+  accent-color: #007f61;
+}
+.showDescription {
+  background-color: #f4fbf9;
+}
+.description th {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12.03px;
+}
+.description tr td:first-child {
+  font-size: 9.04px;
+}
+.description select {
+  font-size: 10.85px;
+}
+.total {
+  font-family: "Inter";
+}
+.finalPayment {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px 4px 4px 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: white;
+  background-color: #007f61;
+  border-color: unset;
+}
+footer {
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 15px;
+  margin-top: 10px;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.9px solid #c8c8c8;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  color: #007f61;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
