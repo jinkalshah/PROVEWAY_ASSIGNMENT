@@ -18,12 +18,12 @@
           <input type="radio" id="one_pair" name="pairs" />
           <div class="radioOptionDiv">
             <div style="display: flex; justify-content: space-between">
-              <div>
+              <div class="pair">
                 <p>1 Pair</p>
                 <strong>DKK 195.00</strong>
               </div>
 
-              <div style="display: flex; align-items: center; font-weight: 500">
+              <div style="display: flex; align-items: center; font-weight: 600">
                 50% OFF
               </div>
             </div>
@@ -66,7 +66,7 @@
           <input type="radio" id="two_pair" name="pairs" />
           <div class="radioOptionDiv">
             <div style="display: flex; justify-content: space-between">
-              <div>
+              <div class="pair">
                 <p>2 Pair</p>
                 <strong>DKK 345.00</strong>
               </div>
@@ -74,7 +74,7 @@
                 <s>DKK 195.00</s>
               </div>
               <div style="display: flex; align-items: center">
-                <div>
+                <div class="pair">
                   <p
                     style="
                       font-weight: 600;
@@ -89,7 +89,7 @@
                     style="
                       text-align: right;
                       margin-top: unset;
-                      font-weight: 500;
+                      font-weight: 600;
                     "
                   >
                     40% OFF
@@ -157,11 +157,11 @@
           <input type="radio" id="three_pair" name="pairs" />
           <div class="radioOptionDiv">
             <div style="display: flex; justify-content: space-between">
-              <div>
+              <div class="pair">
                 <p>3 Pair</p>
                 <strong>DKK 528.00</strong>
               </div>
-              <div style="display: flex; align-items: center; font-weight: 500">
+              <div style="display: flex; align-items: center; font-weight: 600">
                 60% OFF
               </div>
             </div>
@@ -237,11 +237,16 @@
         </label>
         <div
           class="total"
-          style="display: flex; font-size: 14px; justify-content: space-between"
+          style="
+            display: flex;
+            font-size: 14px;
+            justify-content: space-between;
+            margin-bottom: 10px;
+          "
         >
-          <p style="font-weight: 500; color: #007f61">Free 2 Day Shipping</p>
+          <p style="font-weight: 600; color: #007f61">Free 2 Day Shipping</p>
           <p style="font-weight: 400">
-            Total :<strong style="font-weight: 500">
+            Total :<strong style="font-weight: 600">
               DKK <span>00</span>
             </strong>
           </p>
@@ -249,7 +254,7 @@
         <div style="display: flex">
           <input
             type="submit"
-            style="pointer-events: none"
+            style="pointer-events: none; cursor: pointer"
             class="finalPayment"
             value="+ Add to Cart"
           />

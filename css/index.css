@@ -11,7 +11,11 @@
   flex-direction: column;
   width: 50%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
+  /* width: 340.73px; */
+}
+.mainDiv label {
+  display: flex;
 }
 body {
   font-family: "Metropolis";
@@ -20,13 +24,19 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 .radioOptionDiv {
   display: inline-block;
   width: 90%;
   font-size: 14.46px;
+  margin-left: 10px;
+}
+.radioOptionDiv .pair {
+  padding-bottom: 10px;
+  font-size: 14.46px;
+  line-height: 10px;
 }
 .description {
   display: none;
@@ -84,11 +94,16 @@ h2 {
   margin: 10px 0 20px;
   font-family: Metropolis;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #007f61;
 }
 
 h2 span {
   background: #fff;
   padding: 0 10px;
+}
+@media screen and (max-width: 620px) {
+  .mainDiv {
+    width: 340.73px;
+  }
 }
