@@ -9,7 +9,7 @@
 .mainDiv {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   margin: auto;
   margin-top: 5%;
   /* width: 340.73px; */
@@ -102,7 +102,7 @@ h2 span {
   background: #fff;
   padding: 0 10px;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 770px) {
   .mainDiv {
     width: 340.73px;
   }
